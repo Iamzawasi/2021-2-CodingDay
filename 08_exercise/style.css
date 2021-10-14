@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(156, 156, 175);
+}
+span {
+  display: block;
+}
+h1 {
+  text-align: center;
+}
+main {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 50vw;
+  height: 70vh;
+  background-color: white;
+  margin: 0 auto;
+  background-color: rgb(197, 216, 194);
+}
+button {
+  padding: 0.5rem;
+  width: 6rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: blue;
+}
+label {
+  margin-top: 0.5rem;
+}
+
+/* label {
+  display: block;
+  background-color: burlywood;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + label {
+  background: rgb(224, 169, 169);
+} */
+input[id="an1"]:checked + label {
+  background: rgb(224, 169, 169);
+}

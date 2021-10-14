@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz in HTML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Welcome to the Quiz</h1>
+      <hr />
+      <span>
+        <h2 id="mainQuestion">Questin no1</h2>
+        <label for="ans1" id="an1">ans1</label>
+        <input type="radio" id="ans1" name="radio"
+      /></span>
+      <span>
+        <label for="ans2" id="an2">ans2</label>
+        <input type="radio" id="ans2" name="radio"
+      /></span>
+
+      <span>
+        <label for="ans3" id="an3">ans3</label>
+        <input type="radio" id="ans3" name="radio"
+      /></span>
+      <hr />
+      <button id="nextquestion" name="nextquestion" onclick="NextQuestion()">
+        Next
+      </button>
+      <p id="questTracker"></p>
+    </main>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
