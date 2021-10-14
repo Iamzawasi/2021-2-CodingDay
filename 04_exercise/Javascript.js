@@ -39,6 +39,7 @@ function Savebook() {
   };
 
   books.push(CreateObject);
+  books.sort();
   lastbook();
 }
 function lastbook() {
